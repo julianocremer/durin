@@ -36,11 +36,10 @@
     <img src="https://skillicons.dev/icons?i=discord&theme=dark" />
   </a>
 </div>
-<img src="URL_IMAGEM" width="450" alt="GIF" style="border-radius: 0px;"/>
 
 
 ## 📈 Estatísticas do GitHub
-<img src="URL_IMAGEM" width="450" alt="GIF" style="border-radius: 0px;"/>
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=juli.cr&theme=transparent&show_icons=true&hide_border=true&count_private=true" alt="Estatísticas do GitHub" />

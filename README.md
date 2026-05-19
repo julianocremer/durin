@@ -36,6 +36,8 @@
     <img src="https://skillicons.dev/icons?i=discord&theme=dark" />
   </a>
 </div>
+<img src="URL_IMAGEM" width="450" alt="GIF" style="border-radius: 0px;"/>
+
 
 ## 📈 Estatísticas do GitHub
 <img src="URL_IMAGEM" width="450" alt="GIF" style="border-radius: 0px;"/>

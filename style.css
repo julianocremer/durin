@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:radial-gradient(circle at top,#1d2951,#050816 70%);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+    width:100%;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:24px;
+    padding:40px;
+    box-shadow:0 0 40px rgba(255,255,255,0.05);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:2.2rem;
+}
+
+.lua-area{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+.lua{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    background:
+        radial-gradient(circle at 30% 30%, #ffffff, #d6d6d6 40%, #8a8a8a 100%);
+    position:relative;
+    overflow:hidden;
+    box-shadow:
+        0 0 40px rgba(255,255,255,.4),
+        0 0 80px rgba(255,255,255,.2);
+}
+
+.lua::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.35);
+    left:35%;
+    border-radius:50%;
+}
+
+.info{
+    max-width:450px;
+}
+
+.fase{
+    font-size:1.8rem;
+    color:#ffd166;
+    margin-bottom:10px;
+}
+
+.descricao{
+    opacity:.85;
+    line-height:1.7;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.card{
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#9dd9ff;
+}
+
+.card ul{
+    padding-left:18px;
+}
+
+.card li{
+    margin-bottom:8px;
+}
+
+.footer{
+    margin-top:30px;
+    text-align:center;
+    opacity:.7;
+}
+
+@media(max-width:768px){
+    .container{
+        padding:25px;
+    }
+
+    .lua{
+        width:180px;
+        height:180px;
+    }
+
+    h1{
+        font-size:1.8rem;
+      
+    }
+}
